@@ -1,0 +1,74 @@
+/* Базовые стили */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: #7b3f00;
+  color: #f7f1e1;
+  padding: 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: #f7f1e1;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #b35400;
+  border-bottom: 2px solid #b35400;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #7b3f00;
+  color: #f7f1e1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100%;
+    margin-top: 0.5em;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0 0.5em;
+  }
+}
